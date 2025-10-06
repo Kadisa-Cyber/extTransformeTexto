@@ -3,9 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Extensão TT</title>
   </head>
   <body>
-    <h1>Aprendeu?</h1>
+    <div class="container-pai">
+      <header class="cabecalho">Transforme textos</header>
+      <input
+        type="text"
+        name="text"
+        id="input-text"
+        class="input-text"
+        maxlength="500"
+        placeholder="Insira o texto aqui"
+        required
+      />
+
+      <div class="container-button">
+        <button>MAIUSCULAS</button>
+        <button>minusculas</button>
+      </div>
+
+      <div name="result" id="result" class="result">Resultado:</div>
+      
+    </div>
   </body>
 </html>

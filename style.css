@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  color: rgb(171, 102, 236);
+}
+
+.cabecalho {
+  font-weight: 800;
+  color: rgb(171, 102, 236);
+}
+
+.container-pai {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+input {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 5px;
+}
+
+button {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgb(223, 202, 243);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.input-text {
+  background-color: blueviolet;
+  border: none;
+  color: aliceblue;
+}
+
+.input-text::placeholder{
+    color: aliceblue;
+}
+
+.container-button{
+    margin-top: 12px;
+}
