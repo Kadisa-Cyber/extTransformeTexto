@@ -12,7 +12,7 @@ body {
   font-weight: 500;
   font-style: normal;
   background-color: rgb(41, 41, 41);
-  font-size: 15px;
+  font-size: 1rem;
   color: rgb(211, 163, 255);
 }
 
@@ -22,6 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1rem;
 }
 
 .cabecalho img {
@@ -35,8 +36,8 @@ body {
   align-items: center;
   border: 1px solid rgb(255, 255, 255);
   padding: 2rem;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 input {
@@ -85,4 +86,26 @@ input {
   display: flex;
   justify-content: space-around;
   gap: 5px;
+  font-size: 1rem;
+}
+
+.container-footer {
+  font-size: 0.8rem;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.container-footer a {
+  color: aliceblue;
+}
+
+textarea {
+  width: 200px;
+  height: 75px;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  text-wrap: wrap;
+  margin-top: 8px;
+  padding: 5px;
 }

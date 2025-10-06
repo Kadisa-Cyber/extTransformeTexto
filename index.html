@@ -8,12 +8,10 @@
   </head>
   <body>
     <div class="container-pai">
-      <header class="cabecalho"> 
-
-        <img src="logo.png">
+      <header class="cabecalho">
+        <img src="logo.png" />
         Transforme textos
-    
-    </header>
+      </header>
       <form>
         <input
           type="text"
@@ -31,7 +29,16 @@
         </div>
       </form>
 
-      <div name="result" id="result" class="result">Resultado:</div>
+      <div name="result" id="result" class="result">
+        <textarea id="textAreaResult" readonly>Resultado</textarea>
+      </div>
+
+      <footer class="container-footer">
+        Para maiores informações entre em contato com:
+        <a href="https://github.com/Kadisa-Cyber" id="link-github">Kauan Dias</a>
+      </footer>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
