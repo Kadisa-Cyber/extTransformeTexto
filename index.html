@@ -9,23 +9,24 @@
   <body>
     <div class="container-pai">
       <header class="cabecalho">Transforme textos</header>
-      <input
-        type="text"
-        name="text"
-        id="input-text"
-        class="input-text"
-        maxlength="500"
-        placeholder="Insira o texto aqui"
-        required
-      />
+      <form>
+        <input
+          type="text"
+          name="text"
+          id="input-text"
+          class="input-text"
+          maxlength="500"
+          placeholder="Insira o texto aqui"
+          required
+        />
 
-      <div class="container-button">
-        <button>MAIUSCULAS</button>
-        <button>minusculas</button>
-      </div>
+        <div class="container-button">
+          <button type="button" class="btn" id="btn-max">MAIUSCULAS</button>
+          <button type="button" class="btn" id="btn-min">minusculas</button>
+        </div>
+      </form>
 
       <div name="result" id="result" class="result">Resultado:</div>
-      
     </div>
   </body>
 </html>

@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,15 +11,14 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  background-color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  color: rgb(171, 102, 236);
+  background-color: rgb(41, 41, 41);
+  font-size: 15px;
+  color: rgb(211, 163, 255);
 }
 
 .cabecalho {
   font-weight: 800;
-  color: rgb(171, 102, 236);
+  color: rgb(224, 191, 255);
 }
 
 .container-pai {
@@ -28,9 +26,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   padding: 2rem;
+  width: 250px;
+  height: 250px;
 }
 
 input {
@@ -39,16 +38,28 @@ input {
   font-weight: 500;
   font-style: normal;
   padding: 5px;
+  border-radius: 5px;
+  width: 170px;
+  margin-top: 10px;
 }
 
-button {
+.btn{
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   background-color: rgb(223, 202, 243);
   border-radius: 10px;
-  padding: 3px;
+  width: 100px;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(171, 102, 236);
+  border-color: white;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .input-text {
@@ -57,10 +68,14 @@ button {
   color: aliceblue;
 }
 
-.input-text::placeholder{
-    color: aliceblue;
+.input-text::placeholder {
+  color: aliceblue;
 }
 
-.container-button{
-    margin-top: 12px;
+.container-button {
+  margin-top: 12px;
+  width: 160px;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
 }
