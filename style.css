@@ -19,6 +19,13 @@ body {
 .cabecalho {
   font-weight: 800;
   color: rgb(224, 191, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cabecalho img {
+  width: 40px;
 }
 
 .container-pai {
@@ -43,7 +50,7 @@ input {
   margin-top: 10px;
 }
 
-.btn{
+.btn {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
