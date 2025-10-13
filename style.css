@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 * {
   margin: 0;
@@ -7,18 +7,18 @@
 }
 
 body {
-  font-family: "Jost", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 900;
   font-style: normal;
-  background-color: #292929;
+  background-color: #f3f3f3;
   font-size: 1rem;
-  color: #d3a3ff;
+  color: #00000e;
 }
 
 .cabecalho {
   font-weight: 800;
-  color: rgb(224, 191, 255);
+  color: #00000e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ffffff;
+  border: 1px solid #00000e;
   padding: 2rem;
   width: 300px;
   height: 300px;
@@ -50,6 +50,7 @@ input {
   border-radius: 5px;
   width: 170px;
   margin-top: 10px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .btn {
@@ -57,29 +58,23 @@ input {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  background-color: #dfcaf3;
-  border-radius: 10px;
+  background-color: #e2e2e2;
+  border-radius: 5px;
   width: 100px;
   padding: 5px;
-}
-
-.btn:hover {
-  background-color: #ab66ec;
-  border-color: white;
-  color: white;
-  transition: 0.2s;
-  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .input-text {
-  background-color: #8a2be2;
+  background-color: #f3f3f3;
   border: none;
   color: aliceblue;
   width: 200px;
+  border: 1px solid #4c4c4d;
 }
 
 .input-text::placeholder {
-  color: aliceblue;
+  color: #4c4c4d;
 }
 
 .container-button {
@@ -98,7 +93,7 @@ input {
 }
 
 .container-footer a {
-  color: aliceblue;
+  color: #003cff;
 }
 
 textarea {
