@@ -37,8 +37,19 @@ body {
   align-items: center;
   border: 1px solid #00000e;
   padding: 2rem;
-  width: 330px;
-  height: 330px;
+  width: 350px;
+  height: 350px;
+}
+
+.legenda {
+  display: flex;
+  font-size: 14px;
+  margin-top: 5px ;
+}
+
+.contagem {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 input {
@@ -48,7 +59,7 @@ input {
   font-style: normal;
   padding: 5px;
   border-radius: 5px;
-  width: 170px;
+  width: 200px;
   margin-top: 10px;
   font-family: "Ubuntu", sans-serif;
 }
@@ -60,7 +71,7 @@ input {
   font-style: normal;
   background-color: #e2e2e2;
   border-radius: 5px;
-  width: 100px;
+  width: 150px;
   padding: 5px;
   font-family: "Ubuntu", sans-serif;
 }
@@ -77,6 +88,14 @@ input {
   color: #4c4c4d;
 }
 
+form{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-button {
   margin-top: 12px;
   width: 200px;
@@ -88,7 +107,7 @@ input {
 
 .container-footer {
   font-size: 0.8rem;
-  margin-top: 15px;
+  margin-top: 10px;
   text-align: center;
 }
 

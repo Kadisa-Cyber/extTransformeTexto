@@ -27,9 +27,12 @@ function btnClr() {
   const resultado = document.getElementById("textAreaResult");
   input.value = "";
   resultado.value = "";
+
+  document.getElementById("contPalavra").textContent = "0";
+  document.getElementById("contCarac").textContent = "0";
 }
 
-function contar() {
+function btnContar() {
   const texto = document.getElementById("input-text").value;
 
   const contagemCaracteres = texto.length;
@@ -51,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("btn-min").addEventListener("click", btnMin);
   document.getElementById("btn-cap").addEventListener("click", btnCap);
   document.getElementById("btn-clr").addEventListener("click", btnClr);
-  document.getElementById("input-text").addEventListener("input", contar);
+  document.getElementById("input-text").addEventListener("input", btnContar);
   document
     .getElementById("link-github")
     .addEventListener("click", abrirLinkGithub);
