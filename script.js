@@ -25,7 +25,20 @@ function btnCap() {
 function btnClr() {
   const input = document.getElementById("input-text");
   const resultado = document.getElementById("textAreaResult");
-  resultado.value = input.value.toLowerCase();
+  input.value = "";
+  resultado.value = "";
+}
+
+function contar() {
+  const texto = document.getElementById("input-text").value;
+
+  const contagemCaracteres = texto.length;
+
+  const palavras = texto.trim().split(/\s+/).filter(Boolean);
+  const contagemPalavras = palavras.length;
+
+  document.getElementById("contPalavra").textContent = contagemPalavras;
+  document.getElementById("contCarac").textContent = contagemCaracteres;
 }
 
 function abrirLinkGithub(event) {
@@ -38,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("btn-min").addEventListener("click", btnMin);
   document.getElementById("btn-cap").addEventListener("click", btnCap);
   document.getElementById("btn-clr").addEventListener("click", btnClr);
+  document.getElementById("input-text").addEventListener("input", contar);
   document
     .getElementById("link-github")
     .addEventListener("click", abrirLinkGithub);
