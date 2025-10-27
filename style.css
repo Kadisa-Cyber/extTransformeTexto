@@ -44,7 +44,7 @@ body {
 .legenda {
   display: flex;
   font-size: 14px;
-  margin-top: 5px ;
+  margin-top: 5px;
 }
 
 .contagem {
@@ -71,9 +71,17 @@ input {
   font-style: normal;
   background-color: #e2e2e2;
   border-radius: 5px;
-  width: 150px;
+  width: 90px;
   padding: 5px;
   font-family: "Ubuntu", sans-serif;
+}
+
+#btn-max {
+  margin-bottom: 3px;
+}
+
+#btn-min {
+  margin-bottom: 3px;
 }
 
 .input-text {
@@ -88,7 +96,7 @@ input {
   color: #4c4c4d;
 }
 
-form{
+form {
   width: 350px;
   display: flex;
   flex-direction: column;
@@ -103,6 +111,7 @@ form{
   justify-content: space-around;
   gap: 5px;
   font-size: 1rem;
+  flex-wrap: wrap;
 }
 
 .container-footer {

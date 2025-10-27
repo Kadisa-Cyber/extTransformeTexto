@@ -34,7 +34,6 @@ function btnClr() {
 
 function btnContar() {
   const texto = document.getElementById("input-text").value;
-
   const contagemCaracteres = texto.length;
 
   const palavras = texto.trim().split(/\s+/).filter(Boolean);
